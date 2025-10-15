@@ -1,0 +1,15 @@
+{
+  "name": "intersearch",
+  "version": "1.0.0",
+  "description": "InterSearch — smart fallback search engine with AI assistant 'I'.",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "lru-cache": "^10.4.3",
+    "node-fetch": "^3.3.2"
+  }
+}
